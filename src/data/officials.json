@@ -1,10 +1,58 @@
 [
-  { "id": "1", "name": "H. Asep Suryana", "position": "Kepala Desa", "photo": "/images/officials/1.jpg", "period": "2023–2029" },
-  { "id": "2", "name": "Rina Wulandari", "position": "Sekretaris Desa", "photo": "/images/officials/2.jpg", "period": "2023–2029" },
-  { "id": "3", "name": "Dedi Kurniawan", "position": "Kaur Keuangan", "photo": "/images/officials/3.jpg", "period": "2023–2029" },
-  { "id": "4", "name": "Siti Maryam", "position": "Kaur Perencanaan", "photo": "/images/officials/4.jpg", "period": "2023–2029" },
-  { "id": "5", "name": "Bambang Hidayat", "position": "Kasi Pemerintahan", "photo": "/images/officials/5.jpg", "period": "2023–2029" },
-  { "id": "6", "name": "Yayat Ruhiat", "position": "Kasi Kesejahteraan", "photo": "/images/officials/6.jpg", "period": "2023–2029" },
-  { "id": "7", "name": "Nur Aisyah", "position": "Kasi Pelayanan", "photo": "/images/officials/7.jpg", "period": "2023–2029" },
-  { "id": "8", "name": "Ujang Sopandi", "position": "Ketua BPD", "photo": "/images/officials/8.jpg", "period": "2023–2029" }
+  {
+    "id": "1",
+    "name": "H. Denny",
+    "position": "Kepala Desa",
+    "photo": "/images/officials/1.png",
+    "period": "2019–2027"
+  },
+  {
+    "id": "2",
+    "name": "Rina Wulandari",
+    "position": "Sekretaris Desa",
+    "photo": "/images/officials/2.jpg",
+    "period": "2023–2029"
+  },
+  {
+    "id": "3",
+    "name": "Dedi Kurniawan",
+    "position": "Kaur Keuangan",
+    "photo": "/images/officials/3.jpg",
+    "period": "2023–2029"
+  },
+  {
+    "id": "4",
+    "name": "Siti Maryam",
+    "position": "Kaur Perencanaan",
+    "photo": "/images/officials/4.jpg",
+    "period": "2023–2029"
+  },
+  {
+    "id": "5",
+    "name": "Bambang Hidayat",
+    "position": "Kasi Pemerintahan",
+    "photo": "/images/officials/5.jpg",
+    "period": "2023–2029"
+  },
+  {
+    "id": "6",
+    "name": "Yayat Ruhiat",
+    "position": "Kasi Kesejahteraan",
+    "photo": "/images/officials/6.jpg",
+    "period": "2023–2029"
+  },
+  {
+    "id": "7",
+    "name": "Nur Aisyah",
+    "position": "Kasi Pelayanan",
+    "photo": "/images/officials/7.jpg",
+    "period": "2023–2029"
+  },
+  {
+    "id": "8",
+    "name": "Ujang Sopandi",
+    "position": "Ketua BPD",
+    "photo": "/images/officials/8.jpg",
+    "period": "2023–2029"
+  }
 ]

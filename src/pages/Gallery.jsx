@@ -16,7 +16,7 @@ export default function Gallery() {
     <div>
       <section className="bg-sawah-800 py-14 text-beras-50 sm:py-16">
         <div className="container-desa">
-          <p className="eyebrow text-padi-300">Dokumentasi</p>
+          <p className="eyebrow !text-[#f2f0e6]">Dokumentasi</p>
           <h1 className="mt-3 font-display text-4xl font-semibold sm:text-5xl">
             Galeri Desa
           </h1>

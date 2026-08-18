@@ -11,7 +11,7 @@ export default function Services() {
     <div>
       <section className="bg-sawah-800 py-14 text-beras-50 sm:py-16">
         <div className="container-desa">
-          <p className="eyebrow text-padi-300">Kantor Desa</p>
+          <p className="eyebrow !text-[#f2f0e6]">Kantor Desa</p>
           <h1 className="mt-3 font-display text-4xl font-semibold sm:text-5xl">
             Layanan Desa
           </h1>

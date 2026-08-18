@@ -15,7 +15,7 @@ export default function Profile() {
         tone="transparent"
         className="bg-sawah-800 py-16 text-beras-50 sm:py-20">
         <div className="container-desa">
-          <p className="eyebrow text-padi-300">Profil Desa</p>
+          <p className="eyebrow !text-[#f2f0e6]">Profil Desa</p>
           <h1 className="mt-3 font-display text-4xl font-semibold sm:text-5xl">
             {village.name}
           </h1>

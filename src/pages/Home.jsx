@@ -50,7 +50,7 @@ export default function Home() {
 
         <Container className="relative grid grid-cols-1 gap-12 py-20 sm:py-28 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <div>
-            <p className="eyebrow text-padi-300">
+            <p className="eyebrow !text-[#f2f0e6]">
               {village.district}, {village.regency}
             </p>
             <h1 className="mt-4 max-w-xl font-display text-4xl font-semibold leading-[1.1] sm:text-5xl">
@@ -116,7 +116,8 @@ export default function Home() {
           tone="transparent"
           eyebrow="Terkini"
           title="Berita & Pengumuman"
-          description="Kabar terbaru seputar kegiatan, layanan, dan pengumuman resmi dari pemerintah desa.">
+          description="Kabar terbaru seputar kegiatan, layanan, dan pengumuman resmi dari pemerintah desa."
+          className="text-beras-50">
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {latestNews.map((news) => (
               <NewsCard key={news.id} news={news} />

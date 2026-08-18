@@ -33,7 +33,7 @@ export default function Contact() {
     <div>
       <section className="bg-sawah-800 py-14 text-beras-50 sm:py-16">
         <div className="container-desa">
-          <p className="eyebrow text-padi-300">Terhubung</p>
+          <p className="eyebrow !text-[#f2f0e6]">Terhubung</p>
           <h1 className="mt-3 font-display text-4xl font-semibold sm:text-5xl">
             Kontak & Aspirasi
           </h1>
