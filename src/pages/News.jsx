@@ -18,7 +18,8 @@ export default function News() {
             Berita & Pengumuman
           </h1>
           <p className="mt-3 max-w-xl text-sawah-100">
-            Ikuti perkembangan kegiatan dan pengumuman resmi Desa Sukamakmur.
+            Ikuti perkembangan kegiatan dan pengumuman resmi Desa Cihideung
+            Udik.
           </p>
         </div>
       </section>

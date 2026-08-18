@@ -136,7 +136,7 @@ export default function Home() {
           tone="transparent"
           eyebrow="Unggulan"
           title="Potensi Desa"
-          description="Sukamakmur tumbuh dari sawah, kebun, dan tangan warganya — inilah sebagian yang bisa Anda temukan di sini.">
+          description="lorem">
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {featuredPotentials.map((item) => (
               <PotentialCard key={item.id} item={item} />

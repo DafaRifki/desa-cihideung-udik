@@ -20,7 +20,7 @@ export default function Potentials() {
           </h1>
           <p className="mt-3 max-w-xl text-sawah-100">
             UMKM, destinasi wisata, hasil pertanian, hingga kesenian yang tumbuh
-            dari warga Sukamakmur.
+            dari warga Cihideung Udik.
           </p>
         </div>
       </section>

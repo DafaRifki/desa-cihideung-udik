@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <p className="eyebrow mb-4 text-padi-300">Navigasi</p>
+          <p className="eyebrow mb-4 !text-[#f2f0e6]">Navigasi</p>
           <ul className="space-y-2.5 text-sm">
             {LINKS.map((link) => (
               <li key={link.to}>
@@ -76,7 +76,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <p className="eyebrow mb-4 text-padi-300">Kontak</p>
+          <p className="eyebrow mb-4 !text-[#f2f0e6]">Kontak</p>
           <ul className="space-y-3 text-sm text-sawah-200">
             <li className="flex gap-2.5">
               <MapPin size={16} className="mt-0.5 shrink-0 text-padi-400" />
@@ -94,7 +94,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <p className="eyebrow mb-4 text-padi-300">Jam Layanan</p>
+          <p className="eyebrow mb-4 !text-[#f2f0e6]">Jam Layanan</p>
           <p className="text-sm text-sawah-200">{village.officeHours}</p>
           <p className="mt-4 text-sm text-sawah-200">
             {village.district}, {village.regency}, {village.province}

@@ -39,7 +39,7 @@ export default function Contact() {
           </h1>
           <p className="mt-3 max-w-xl text-sawah-100">
             Sampaikan pertanyaan, masukan, atau aspirasi Anda kepada pemerintah
-            Desa Sukamakmur.
+            Desa Cihideung Udik.
           </p>
         </div>
       </section>

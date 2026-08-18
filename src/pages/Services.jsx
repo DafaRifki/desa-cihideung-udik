@@ -16,8 +16,8 @@ export default function Services() {
             Layanan Desa
           </h1>
           <p className="mt-3 max-w-xl text-sawah-100">
-            Daftar layanan administrasi yang tersedia di kantor Desa Sukamakmur
-            beserta syarat dan estimasi waktunya.
+            Daftar layanan administrasi yang tersedia di kantor Desa Cihideung
+            Udik beserta syarat dan estimasi waktunya.
           </p>
         </div>
       </section>

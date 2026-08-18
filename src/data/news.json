@@ -10,17 +10,7 @@
     "date": "2026-08-10",
     "author": "Admin Desa"
   },
-  {
-    "id": "2",
-    "title": "Panen Raya Padi Dusun Cikoneng Tahun Ini Meningkat 15%",
-    "slug": "panen-raya-padi-cikoneng",
-    "excerpt": "Hasil panen padi di Dusun Cikoneng meningkat berkat program irigasi baru yang didukung dana desa.",
-    "content": "Musim panen tahun ini membawa kabar baik bagi petani Dusun Cikoneng. Hasil ubinan menunjukkan kenaikan produktivitas sekitar 15% dibanding musim sebelumnya, didorong oleh perbaikan saluran irigasi yang selesai dibangun awal tahun ini. Kelompok Tani Sukamaju menyampaikan apresiasi kepada pemerintah desa dan berharap program serupa dapat diperluas ke dusun lain pada tahun mendatang.",
-    "image": "/images/news/2.jpg",
-    "category": "Kegiatan",
-    "date": "2026-07-28",
-    "author": "Redaksi Desa"
-  },
+
   {
     "id": "3",
     "title": "Pelatihan Digital Marketing untuk Pelaku UMKM Desa",
@@ -53,16 +43,5 @@
     "category": "Kegiatan",
     "date": "2026-08-13",
     "author": "Redaksi Desa"
-  },
-  {
-    "id": "6",
-    "title": "Perbaikan Jalan Dusun Cipinang Dimulai Pekan Depan",
-    "slug": "perbaikan-jalan-cipinang",
-    "excerpt": "Proyek perbaikan jalan sepanjang 800 meter di Dusun Cipinang akan dimulai menggunakan dana desa tahap kedua.",
-    "content": "Pemerintah Desa Sukamakmur mengumumkan dimulainya proyek perbaikan jalan penghubung Dusun Cipinang sepanjang 800 meter. Proyek ini menggunakan Dana Desa tahap kedua tahun 2026 dan diperkirakan berlangsung selama tiga minggu. Warga diimbau untuk berhati-hati dan menggunakan jalur alternatif selama masa pengerjaan berlangsung.",
-    "image": "/images/news/6.jpg",
-    "category": "Lainnya",
-    "date": "2026-06-20",
-    "author": "Admin Desa"
   }
 ]

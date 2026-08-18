@@ -21,7 +21,7 @@ export default function Gallery() {
             Galeri Desa
           </h1>
           <p className="mt-3 max-w-xl text-sawah-100">
-            Momen kegiatan warga, keindahan alam, dan budaya Desa Sukamakmur
+            Momen kegiatan warga, keindahan alam, dan budaya Desa Cihideung Udik
             dalam gambar.
           </p>
         </div>
