@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Surat Keterangan Domisili",
+    "description": "Surat keterangan tempat tinggal untuk keperluan administrasi, pekerjaan, atau pendidikan.",
+    "requirements": ["Fotokopi KTP", "Fotokopi Kartu Keluarga", "Surat pengantar RT/RW"],
+    "duration": "1 hari kerja"
+  },
+  {
+    "id": "2",
+    "name": "Surat Keterangan Tidak Mampu (SKTM)",
+    "description": "Surat keterangan untuk keperluan bantuan sosial, keringanan biaya sekolah, atau pengobatan.",
+    "requirements": ["Fotokopi KTP", "Fotokopi Kartu Keluarga", "Surat pengantar RT/RW"],
+    "duration": "1 hari kerja"
+  },
+  {
+    "id": "3",
+    "name": "Surat Pengantar Nikah",
+    "description": "Surat pengantar dari desa untuk melengkapi berkas pernikahan di KUA kecamatan.",
+    "requirements": ["Fotokopi KTP kedua calon mempelai", "Fotokopi Kartu Keluarga", "Fotokopi akta kelahiran"],
+    "duration": "1–2 hari kerja"
+  },
+  {
+    "id": "4",
+    "name": "Surat Keterangan Usaha (SKU)",
+    "description": "Surat keterangan kepemilikan usaha untuk keperluan izin usaha atau pengajuan pinjaman modal.",
+    "requirements": ["Fotokopi KTP", "Fotokopi Kartu Keluarga", "Foto lokasi usaha"],
+    "duration": "1 hari kerja"
+  },
+  {
+    "id": "5",
+    "name": "Legalisasi Dokumen",
+    "description": "Pengesahan salinan dokumen kependudukan yang dikeluarkan oleh desa.",
+    "requirements": ["Dokumen asli", "Fotokopi dokumen yang akan dilegalisasi"],
+    "duration": "Ditunggu"
+  },
+  {
+    "id": "6",
+    "name": "Surat Keterangan Kelahiran",
+    "description": "Surat pengantar untuk pengurusan akta kelahiran di Dinas Kependudukan dan Catatan Sipil.",
+    "requirements": ["Surat keterangan lahir dari bidan/rumah sakit", "Fotokopi Kartu Keluarga", "Fotokopi KTP orang tua"],
+    "duration": "1 hari kerja"
+  }
+]

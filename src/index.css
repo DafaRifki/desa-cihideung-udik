@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* Colors — grounded in the village landscape: paddies, rice, soil */
+  --color-sawah-900: #1c2e1e;
+  --color-sawah-800: #23391f;
+  --color-sawah-700: #2f5233;
+  --color-sawah-600: #3d6b3f;
+  --color-sawah-500: #5b8c51;
+  --color-sawah-400: #86ac72;
+  --color-sawah-100: #e4ebde;
+  --color-sawah-50: #eff3ea;
+
+  --color-padi-700: #a67f14;
+  --color-padi-600: #c2941d;
+  --color-padi-500: #d6a419;
+  --color-padi-400: #e3bc4c;
+  --color-padi-100: #f8ecc6;
+
+  --color-tanah-800: #4a3320;
+  --color-tanah-700: #5f3f26;
+  --color-tanah-600: #7a5230;
+  --color-tanah-100: #ece2d5;
+
+  --color-beras-50: #fdfbf5;
+  --color-beras-100: #fbf8f0;
+  --color-beras-200: #f4eeda;
+
+  --color-ink: #1f2a1d;
+  --color-ink-soft: #47523f;
+
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-beras-100);
+    color: var(--color-ink);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+  }
+
+  ::selection {
+    background-color: var(--color-padi-400);
+    color: var(--color-sawah-900);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-padi-600);
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  .container-desa {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.18em] text-sawah-600;
+  }
+
+  .eyebrow::before {
+    content: "";
+    @apply h-[6px] w-[6px] rounded-full bg-padi-500;
+  }
+
+  /* Terrace contour divider — the site's signature motif, echoing sawah terracing */
+  .terrace-divider {
+    display: block;
+    width: 100%;
+    height: 44px;
+    line-height: 0;
+  }
+
+  .terrace-divider svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  /* Stamp badge — used for section markers, echoes an official village seal */
+  .stempel {
+    @apply relative inline-flex h-16 w-16 shrink-0 items-center justify-center rounded-full border-2 border-dashed border-padi-500 font-display text-sawah-700;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: reveal-up 0.6s ease-out both;
+    }
+  }
+
+  @keyframes reveal-up {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "name": "Kopi Robusta Salak Sukamakmur",
+    "category": "UMKM",
+    "description": "Kopi robusta hasil kebun warga di lereng Gunung Salak, diolah dengan metode sangrai tradisional oleh koperasi tani setempat.",
+    "image": "/images/potentials/1.jpg",
+    "contact": "0812-3456-7891"
+  },
+  {
+    "id": "2",
+    "name": "Curug Ciateul",
+    "category": "Wisata",
+    "description": "Air terjun setinggi 20 meter dengan kolam alami di bagian bawah, cocok untuk trekking ringan bersama keluarga.",
+    "image": "/images/potentials/2.jpg",
+    "contact": "Pokdarwis Sukamakmur"
+  },
+  {
+    "id": "3",
+    "name": "Kerajinan Anyaman Bambu",
+    "category": "UMKM",
+    "description": "Produk anyaman bambu seperti tampah, bakul, dan lampu hias yang dikerjakan oleh kelompok perajin Dusun Cikoneng.",
+    "image": "/images/potentials/3.jpg",
+    "contact": "0813-9988-1122"
+  },
+  {
+    "id": "4",
+    "name": "Kebun Teh Sukamakmur",
+    "category": "Pertanian",
+    "description": "Hamparan kebun teh seluas 30 hektar yang juga terbuka untuk wisata edukasi petik dan pengolahan teh.",
+    "image": "/images/potentials/4.jpg",
+    "contact": "0821-4455-6677"
+  },
+  {
+    "id": "5",
+    "name": "Sanggar Tari Jaipong Mekar Sari",
+    "category": "Budaya",
+    "description": "Sanggar seni yang melestarikan tari jaipong dan pencak silat, aktif tampil dalam acara desa dan kecamatan.",
+    "image": "/images/potentials/5.jpg",
+    "contact": "0857-1122-3344"
+  },
+  {
+    "id": "6",
+    "name": "Gula Aren Sukamakmur",
+    "category": "UMKM",
+    "description": "Gula aren cetak dan cair hasil sadapan nira dari kebun aren warga, diproses tanpa bahan pengawet.",
+    "image": "/images/potentials/6.jpg",
+    "contact": "0812-7788-9900"
+  },
+  {
+    "id": "7",
+    "name": "Sawah Terasering Cipinang",
+    "category": "Wisata",
+    "description": "Spot foto persawahan berundak yang populer saat musim tanam, dilengkapi gazebo pandang dari warga setempat.",
+    "image": "/images/potentials/7.jpg",
+    "contact": "Pokdarwis Sukamakmur"
+  },
+  {
+    "id": "8",
+    "name": "Budidaya Ikan Nila Kolam Dusun",
+    "category": "Pertanian",
+    "description": "Kelompok pembudidaya ikan nila yang memasok kebutuhan pasar kecamatan dan menerima kunjungan belajar.",
+    "image": "/images/potentials/8.jpg",
+    "contact": "0838-2233-4455"
+  }
+]

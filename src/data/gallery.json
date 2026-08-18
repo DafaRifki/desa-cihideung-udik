@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "title": "Gotong Royong Bersihkan Saluran Irigasi",
+    "album": "Kegiatan Warga",
+    "image": "/images/gallery/1.png"
+  },
+  {
+    "id": "2",
+    "title": "Panen Raya Dusun Cikoneng",
+    "album": "Pertanian",
+    "image": "/images/gallery/2.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Festival Budaya Kemerdekaan",
+    "album": "Budaya",
+    "image": "/images/gallery/3.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Pelatihan UMKM di Balai Desa",
+    "album": "Kegiatan Warga",
+    "image": "/images/gallery/4.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Pemandangan Sawah Terasering",
+    "album": "Wisata",
+    "image": "/images/gallery/5.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Posyandu Balita Dusun Cipinang",
+    "album": "Kegiatan Warga",
+    "image": "/images/gallery/6.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Curug Ciateul di Musim Kemarau",
+    "album": "Wisata",
+    "image": "/images/gallery/7.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Kebun Teh saat Pagi Berkabut",
+    "album": "Wisata",
+    "image": "/images/gallery/8.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Latihan Tari Jaipong Sanggar Mekar Sari",
+    "album": "Budaya",
+    "image": "/images/gallery/9.jpg"
+  }
+]
