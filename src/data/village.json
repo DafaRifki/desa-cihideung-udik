@@ -4,32 +4,26 @@
   "district": "Kecamatan Ciampea",
   "regency": "Kabupaten Bogor",
   "province": "Jawa Barat",
-  "description": "Desa Sukamakmur adalah desa agraris di kaki Gunung Salak yang dikenal dengan hamparan sawah, kebun teh, dan kerajinan bambu warganya. Website ini hadir sebagai kanal informasi resmi bagi warga, perangkat desa, dan siapa pun yang ingin mengenal lebih dekat Sukamakmur.",
+  "description": "lorem",
   "heroImage": "/images/hero/sawah.jpg",
-  "address": "Jl. Raya Sukamakmur No. 1, Ciampea, Kabupaten Bogor, Jawa Barat 16720",
+  "address": "Jl. Babengket, Desa Cihideung Udik, Ciampea, Bogor 16620",
   "phone": "(0251) 123-4567",
   "email": "test@gmail.com",
   "officeHours": "Senin–Jumat, 08.00–15.00 WIB",
   "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15854.896734181816!2d106.702!3d-6.58!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c43735ff86ad%3A0x501e8f1fc290230!2sCihideung%20Udik%2C%20Kec.%20Ciampea%2C%20Kabupaten%20Bogor%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid",
   "coordinates": { "lat": -6.6725, "lng": 106.775 },
   "social": {
-    "facebook": "https://facebook.com/desasukamakmur",
-    "instagram": "https://instagram.com/desasukamakmur",
-    "youtube": "https://youtube.com/@desasukamakmur"
+    "facebook": "",
+    "instagram": "",
+    "youtube": ""
   },
   "stats": {
-    "population": 4820,
-    "area": "14.2 km²",
+    "population": 0,
+    "area": "0",
     "hamlets": 3,
-    "households": 1240
+    "households": 0
   },
-  "vision": "Terwujudnya Desa Sukamakmur yang mandiri secara ekonomi, lestari lingkungannya, dan guyub warganya pada tahun 2030.",
-  "mission": [
-    "Mengembangkan potensi pertanian dan UMKM berbasis kearifan lokal",
-    "Meningkatkan kualitas pelayanan publik yang cepat, transparan, dan akuntabel",
-    "Menjaga kelestarian lingkungan dan ruang terbuka hijau desa",
-    "Memperkuat gotong royong dan partisipasi warga dalam pembangunan desa",
-    "Mendorong literasi digital bagi seluruh lapisan masyarakat"
-  ],
-  "history": "Nama Sukamakmur berasal dari harapan para pendiri desa pada tahun 1952 agar wilayah ini menjadi tempat yang disukai untuk ditinggali sekaligus makmur bagi warganya. Bermula dari beberapa kelompok tani di lembah Gunung Salak, desa ini berkembang menjadi sentra padi dan teh yang menopang perekonomian kecamatan hingga hari ini. Struktur pemerintahan desa modern mulai ditata sejak awal 2000-an, ditandai dengan pembangunan balai desa dan penataan lima dusun yang ada saat ini."
+  "vision": "lorem",
+  "mission": ["lorem"],
+  "history": "lorem"
 }

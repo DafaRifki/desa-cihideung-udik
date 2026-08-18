@@ -22,7 +22,8 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-2.5">
             <span className="flex h-9 w-9 items-center justify-center rounded-full bg-padi-500 text-sawah-900">
-              <Sprout size={18} strokeWidth={2} />
+              {/* <Sprout size={18} strokeWidth={2} /> */}
+              <img src="/images/logo.png" alt="KKN 12" />
             </span>
             <span className="font-display text-lg font-semibold text-beras-50">
               {village.name}

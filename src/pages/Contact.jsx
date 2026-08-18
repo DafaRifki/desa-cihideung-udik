@@ -44,89 +44,97 @@ export default function Contact() {
         </div>
       </section>
 
-      <Section>
-        <div className="grid grid-cols-1 gap-10 lg:grid-cols-[0.9fr_1.1fr]">
-          <div className="space-y-6">
-            <InfoRow icon={MapPin} label="Alamat" value={village.address} />
-            <InfoRow icon={Phone} label="Telepon" value={village.phone} />
-            <InfoRow icon={Mail} label="Email" value={village.email} />
-            <InfoRow
-              icon={Clock3}
-              label="Jam Layanan"
-              value={village.officeHours}
-            />
-
-            <div className="overflow-hidden rounded-2xl border border-sawah-100">
-              <iframe
-                title="Peta Kantor Desa"
-                src={village.mapEmbedUrl}
-                className="h-[260px] w-full"
-                loading="lazy"
+      <div className="relative z-0 overflow-hidden bg-beras-100">
+        <img
+          src="/images/logo.png"
+          alt="watermark"
+          aria-hidden="true"
+          className="pointer-events-none absolute left-1/2 top-1/2 -z-10 w-[600px] max-w-none -translate-x-1/2 -translate-y-1/2 opacity-[0.07] sm:w-[820px] lg:w-[1000px]"
+        />
+        <Section tone="transparent">
+          <div className="grid grid-cols-1 gap-10 lg:grid-cols-[0.9fr_1.1fr]">
+            <div className="space-y-6">
+              <InfoRow icon={MapPin} label="Alamat" value={village.address} />
+              <InfoRow icon={Phone} label="Telepon" value={village.phone} />
+              <InfoRow icon={Mail} label="Email" value={village.email} />
+              <InfoRow
+                icon={Clock3}
+                label="Jam Layanan"
+                value={village.officeHours}
               />
+
+              <div className="overflow-hidden rounded-2xl border border-sawah-100">
+                <iframe
+                  title="Peta Kantor Desa"
+                  src={village.mapEmbedUrl}
+                  className="h-[260px] w-full"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <div className="rounded-2xl border border-sawah-100 bg-beras-50 p-7">
+              <h2 className="font-display text-xl font-medium text-ink">
+                Kirim Pesan
+              </h2>
+              <p className="mt-1 text-sm text-ink-soft">
+                Formulir ini akan membuka aplikasi email Anda dengan pesan yang
+                sudah terisi.
+              </p>
+
+              {sent ? (
+                <div className="mt-6 flex items-start gap-3 rounded-xl bg-sawah-50 p-5 text-sawah-800">
+                  <CheckCircle2 size={20} className="mt-0.5 shrink-0" />
+                  <p className="text-sm">
+                    Aplikasi email Anda seharusnya sudah terbuka dengan pesan
+                    terisi. Jika tidak, silakan kirim langsung ke{" "}
+                    <span className="font-medium">{village.email}</span>.
+                  </p>
+                </div>
+              ) : (
+                <form onSubmit={handleSubmit} className="mt-6 space-y-4">
+                  <Field
+                    label="Nama"
+                    name="name"
+                    value={form.name}
+                    onChange={handleChange}
+                    required
+                  />
+                  <Field
+                    label="Email"
+                    name="email"
+                    type="email"
+                    value={form.email}
+                    onChange={handleChange}
+                    required
+                  />
+                  <div>
+                    <label
+                      htmlFor="message"
+                      className="mb-1.5 block text-sm font-medium text-ink">
+                      Pesan
+                    </label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows={5}
+                      required
+                      value={form.message}
+                      onChange={handleChange}
+                      className="w-full rounded-xl border border-sawah-200 bg-beras-50 px-4 py-2.5 text-sm text-ink placeholder:text-ink-soft/50 focus:border-sawah-500 focus:outline-none"
+                      placeholder="Tuliskan pertanyaan atau aspirasi Anda…"
+                    />
+                  </div>
+                  <Button type="submit">
+                    Kirim Pesan
+                    <Send size={15} />
+                  </Button>
+                </form>
+              )}
             </div>
           </div>
-
-          <div className="rounded-2xl border border-sawah-100 bg-beras-50 p-7">
-            <h2 className="font-display text-xl font-medium text-ink">
-              Kirim Pesan
-            </h2>
-            <p className="mt-1 text-sm text-ink-soft">
-              Formulir ini akan membuka aplikasi email Anda dengan pesan yang
-              sudah terisi.
-            </p>
-
-            {sent ? (
-              <div className="mt-6 flex items-start gap-3 rounded-xl bg-sawah-50 p-5 text-sawah-800">
-                <CheckCircle2 size={20} className="mt-0.5 shrink-0" />
-                <p className="text-sm">
-                  Aplikasi email Anda seharusnya sudah terbuka dengan pesan
-                  terisi. Jika tidak, silakan kirim langsung ke{" "}
-                  <span className="font-medium">{village.email}</span>.
-                </p>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="mt-6 space-y-4">
-                <Field
-                  label="Nama"
-                  name="name"
-                  value={form.name}
-                  onChange={handleChange}
-                  required
-                />
-                <Field
-                  label="Email"
-                  name="email"
-                  type="email"
-                  value={form.email}
-                  onChange={handleChange}
-                  required
-                />
-                <div>
-                  <label
-                    htmlFor="message"
-                    className="mb-1.5 block text-sm font-medium text-ink">
-                    Pesan
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={5}
-                    required
-                    value={form.message}
-                    onChange={handleChange}
-                    className="w-full rounded-xl border border-sawah-200 bg-beras-50 px-4 py-2.5 text-sm text-ink placeholder:text-ink-soft/50 focus:border-sawah-500 focus:outline-none"
-                    placeholder="Tuliskan pertanyaan atau aspirasi Anda…"
-                  />
-                </div>
-                <Button type="submit">
-                  Kirim Pesan
-                  <Send size={15} />
-                </Button>
-              </form>
-            )}
-          </div>
-        </div>
-      </Section>
+        </Section>
+      </div>
     </div>
   );
 }
